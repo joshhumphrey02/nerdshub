@@ -1,0 +1,149 @@
+.navbar{
+    width: 100%;
+    height: 4rem;
+    background-color: blue;
+}
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_menu{
+    display: flex;
+    gap: 5vw;
+}
+/************ end of navbar ***************/
+
+/*********   start of show case ***************/
+.showcase{
+    width: 100%;
+    height: 15rem;
+    margin: 2rem 0;
+}
+.showcase_content{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+}
+.showcase_content h1{
+    margin: 0.3rem 0;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+.showcase_content h5{
+    text-align: center;
+    margin: 20px 0;
+}
+.showcase_content p{
+    padding: 2px 0;
+
+}
+/*** end of showcase ******/
+.cli{
+    width: 100%;
+    text-align: center;
+    margin: 2rem 0;
+}
+.cli h1{
+    font-weight: 900;
+}
+.cli .container{
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    gap: 4rem;
+    margin: 2rem auto;
+    background-color: lightgray;
+}
+.cli_card{
+    width: 12rem;
+    height: 12rem;
+}
+.card_imgs{
+    width: 40%;
+    height: 40%;
+    margin: auto;
+}
+
+/*    start of Stats */
+.stats{
+    width: 100%;
+    height: 10rem;
+}
+.stats .stats_items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 1rem 0;
+}
+.stats_item{
+    border: 2px solid blue;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    padding: 0.2rem 1rem;
+}
+/*** end of stats ******/
+
+
+/*** start of cloud *********/
+.cloud{
+    width: 100%;
+    height: 15rem;
+    background-color: rgba(0, 0, 255, 0.863);
+    color: white;
+}
+.cloud .container{
+    display: flex;
+    gap: 15px;
+}
+.cloud_text h2{
+    margin-bottom: 10px;
+}
+.cloud_text p{
+    font-size: 20px;
+}
+.cloud_img{
+    width: 100%;
+    height: 100%;
+}
+.cloud_img img{
+    width: 40vw;
+}
+/*** end of cloud ******/
+
+/*** start of languages *********/
+.languages{
+    width: 100%;
+    text-align: center;
+    margin: 30px 0;
+    margin-bottom: 50px;
+}
+.languages .container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 8px;
+    height: fit-content;
+    margin-top: 10px;
+}
+.language_card{
+    width: 80%;
+    height: 6rem;
+}
+/*** end of languages ******/
+
+/*** start of footer *********/
+footer{
+    width: 100%;
+    height: 4rem;
+    margin-top: 1rem;
+    background-color: gray;
+    color: white;
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
